@@ -1,0 +1,23 @@
+#loading{
+		width:100%;
+		height:100%;
+		background-color:#ccc;
+		position:fixed;
+		top:0;
+		left:0;
+		z-index:9999;
+		opacity: 0.8;
+		filter: alpha(opacity=90);
+}
+
+.scrollup{
+    width:40px;
+    height:40px;
+    opacity:1;
+    position:fixed;
+    bottom:50px;
+    right:100px;
+    display:none;
+    text-indent:-9999px;
+    /*background: url(<?php asset('images/cargar.png' ?>) no-repeat;*/
+}
